@@ -16,7 +16,7 @@
 ess1=int(input('첫 번째 정수를 입력하세요 : ')) # 첫번째 정수를 정수 값으로 입력받기
 ess2=int(input('두 번째 정수를 입력하세요 : ')) # 두번째 정수를 정수 값으로 입력받기
 
-if ess1>ess2 and ess1/ess2==0:
+if ess1>ess2 and ess1%ess2==0:
     print(ess2,'는', ess1,'의 약수입니다.')
 else:
     print('정수를 다시 입력하세요')
