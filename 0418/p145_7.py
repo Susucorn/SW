@@ -30,10 +30,10 @@ x=int(input('x의 값을 입력하세요 : '))  #x의 값을 정수로 입력받
 y=int(input('y의 값을 입력하세요 : ')) #y의 값을 정수로 입력받기
 
 if x>y and y!=0:
-    print(x//y)
+    print('{} // {} = {}'.format(x,y,x//y))
 elif x<y:
-    print(x+y)
+    print('{} + {} = {}'.format(x,y,x+y))
 elif x==y:
-    print(x*y)
+    print('{} * {} = {}'.format(x,y,x*y))
 else:
     print('y의 값은 0 입니다.')
