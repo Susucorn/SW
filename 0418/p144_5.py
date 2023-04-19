@@ -19,4 +19,4 @@ ess2=int(input('두 번째 정수를 입력하세요 : ')) # 두번째 정수를
 if ess1>ess2 and ess1%ess2==0:
     print('{}는 {}의 약수입니다.'.format(css2, css1))
 else:
-    print('정수를 다시 입력하세요')
+    print('{}는 {}의 약수가 아닙니다.'.format(css2, css1))
