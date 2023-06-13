@@ -77,4 +77,5 @@ elif payment_method == "카드":
 else:
     print("결제 방법을 선택해주세요.") 
 
-print("결제 금액은", menu_sum, "원입니다.") #계산 끝
+print("결제 금액은", menu_sum, "원입니다.") # 계산 끝
+print("식권을 발급받으세요")                # 식권발급
