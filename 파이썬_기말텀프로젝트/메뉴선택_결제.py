@@ -43,7 +43,6 @@ menu = {
     },
 }
 
-print(memu)
 menu_sum = 0
 answer = "네"
 
