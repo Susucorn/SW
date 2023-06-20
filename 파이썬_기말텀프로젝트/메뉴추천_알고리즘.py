@@ -16,7 +16,7 @@ print("===============================")
 
 print()
 
-i = random.randint(0,len(menu)-1)
+i = random.randint(0,len(menu))
 print('추천 메뉴:', menu[i])
 print('추천 메뉴:', menu[i+1])
 print('추천 메뉴:', menu[i+2])
